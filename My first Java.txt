@@ -1,0 +1,21 @@
+package myfirstjava;
+
+public class Main {
+
+	public static void main(String[] args) {
+		boolean variavel_VouF = true;
+		int variavel_ex = 100;
+		long variavel_longa = 10000000;
+		double variavel_ex_real = 1.2f;
+		char variavel_MACHO = 'M';
+		String variavel_texto = "Hello World!";
+		System.out.println("\tHello World!\n"); // \n pra pular linha ou println
+		System.out.println(String.format("The ammount is %d and %d", variavel_ex, variavel_longa)); // %d como integral para expor a variavel_ex
+		System.out.println(String.format("The fracionated ammount is %f", variavel_ex_real));
+		System.out.println(String.format("Sex is %c", variavel_MACHO));
+		System.out.println(String.format("%s", variavel_texto));
+		System.out.println(String.format("%b", variavel_VouF));
+
+	}
+
+}

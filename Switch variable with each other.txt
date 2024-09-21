@@ -1,0 +1,24 @@
+package myfirstjava;
+
+public class Java {
+
+	public static void main(String[] args) {
+		String x = "Water";
+		String y = "Kool";
+		String temp;
+		
+		System.out.println(String.format("X: %s Y: %s\n", x, y));
+		
+		temp = x; // temp recebe x
+		x = y; // x recebe y
+		y = temp; //y recebe temp;
+		
+		System.out.println("Apos a operação =>\n");
+		
+		System.out.println(String.format("X: %s Y: %s", x, y));
+
+	}
+
+}
+
+
